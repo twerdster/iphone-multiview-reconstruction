@@ -8,11 +8,11 @@ Supervision: Aaron Wetzler.
 
 ## Status
 
-**Coming soon.** This repository is being prepared as a historical student-project archive. Original source code, project documents and build instructions will be added as they are recovered and reviewed. It is not yet a runnable release.
+The [original 16-slide project presentation](docs/slides.pdf), *3D Scanning framework for iPhone*, has been recovered. **Source code coming soon:** the full capture/server/viewer implementation has not yet been located. This is not a runnable release.
 
 ## Running
 
-No runnable source has been published in this repository yet. Platform requirements and setup instructions will be recorded from the original project files rather than guessed.
+The recovered slides describe iPhone image capture/upload, server-side VisualSFM reconstruction and PLY output, and KiwiViewer integration on the phone. The earlier project description names PMVS2; the exact final integration revision has not been established. No server deployment or Xcode build instructions are invented without the corresponding source. Signing configuration and historical cloud/server accounts must be replaced with a user's own setup when recovery is complete.
 
 ## Links
 
