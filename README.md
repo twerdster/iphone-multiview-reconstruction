@@ -8,7 +8,9 @@ Supervision: Aaron Wetzler.
 
 ## Status
 
-The [original 16-slide project presentation](docs/slides.pdf), *3D Scanning framework for iPhone*, has been recovered. **Source code coming soon:** the full capture/server/viewer implementation has not yet been located. This is not a runnable release.
+The [16-slide project presentation](docs/slides.pdf), *3D Scanning framework for iPhone*, has been recovered. The public copy has one database screenshot removed from slide 7 to protect login details and personal data; the other slides are unchanged. **Source code coming soon:** the full capture/server/viewer implementation has not yet been located. This is not a runnable release.
+
+The first recovered PDF committed on November 12, 2026 contained that screenshot. Replacing the current PDF does not remove historical Git copies. The authenticity and continued validity of the displayed application login records have not been established; any real or reused credentials must be changed by their owners.
 
 ## Running
 
