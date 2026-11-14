@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Photo reconstruction</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header><span class="eyebrow">UPDATED IMPLEMENTATION · CPU COLMAP</span><h1>Reconstruct a scene from photographs</h1><p>Capture overlapping views, estimate the cameras, and inspect a coloured 3D point cloud.</p></header>
+<main>
+<section class="panel controls"><h2>1. Add photographs</h2><p>Walk around a still, textured object. Keep neighbouring views about 70–80% overlapping. Take 12–30 sharp photographs; translate the camera rather than only turning it.</p>
+<label class="file-button">Choose photos<input id="photos" type="file" accept="image/jpeg,image/png" multiple></label>
+<label class="file-button secondary">Take a photo<input id="camera" type="file" accept="image/jpeg" capture="environment"></label>
+<label class="file-button secondary">Choose image ZIP<input id="archive" type="file" accept=".zip,application/zip"></label>
+<p id="selection" class="hint">JPEG or PNG · 3–80 images · up to 256 MB</p><div id="thumbnails" aria-label="Selected photographs"></div>
+<div class="actions"><button id="start" disabled>Reconstruct</button><button id="clear" class="secondary">Clear</button></div>
+<p class="hint">iPhone: use Camera → Formats → Most Compatible, or export HEIC photos as JPEG. Photos stay on the machine running this server.</p>
+</section>
+<section class="panel result"><div class="result-head"><h2>2. Inspect the reconstruction</h2><span id="state" class="pill">Ready</span></div>
+<p id="progress" role="status">Add overlapping photographs to begin.</p><div id="viewport"><canvas id="cloud" aria-label="Interactive 3D reconstruction"></canvas><div id="empty">The estimated point cloud will appear here.<small>Drag to rotate · pinch or scroll to zoom</small></div></div>
+<div class="viewer-tools"><label>Cloud <select id="model-source" disabled><option value="cloud.json">Final result</option><option value="sparse-cloud.json">Sparse SfM</option></select></label><button id="reset" class="secondary">Reset view</button><button id="orbit" class="secondary">Auto rotate</button><label>Point size <input id="point-size" type="range" min="1" max="5" value="2" step=".5"></label></div>
+<div id="metrics"></div><div id="downloads" class="actions"></div>
+<p class="hint">Cameras and scale are estimated from the photos. Output is a point cloud in arbitrary units, not a measured object or a watertight mesh.</p>
+</section>
+</main><footer>A new implementation of the documented iPhone capture → HTTP server → reconstruction → PLY viewer workflow. The original student application source has not been recovered.</footer>
+<script src="/static/viewer.js"></script><script src="/static/app.js"></script>
+</body></html>

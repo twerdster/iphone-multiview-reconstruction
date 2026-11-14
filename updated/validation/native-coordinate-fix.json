@@ -1,0 +1,27 @@
+{
+  "scope": "Observed Mac NumPy/Accelerate native matrix-multiplication failure isolated to stereo coordinate transforms; same saved reconstruction succeeds after a BLAS-free equivalent transform.",
+  "platform": "macOS15.1.1 arm64; Python3.12.11; NumPy2.2.6; pycolmap3.13.0; OpenCV4.12.0",
+  "original_job": {
+    "registered_images": 11,
+    "sparse_points": 11303,
+    "outcome": "worker terminated by SIGSEGV after saved SfM model and sparse PLY; parent correctly reported failure"
+  },
+  "native_crash_report": {
+    "fault": "libBLAS.dylib cblas_dgemm$NEWLAPACK$ILP64 called by NumPy DOUBLE_matmul",
+    "raw_report_published": false
+  },
+  "isolated_reproduction": {
+    "input": "same saved 11-view model, no new feature extraction or mapping",
+    "outcome_before": "SIGSEGV during stereo pair4/15",
+    "outcome_after": "completed all15 candidate pairs,34154 filtered stereo points",
+    "change": "np.einsum(..., optimize=False) for large coordinate-array contractions, replacing batched matrix multiplication; no replacement of COLMAP or OpenCV"
+  },
+  "regression_test": "large 480x640x3 strided float32 coordinate array with float64 matrix; compared against explicit component arithmetic within2e-15",
+  "model_sha256": {
+    "rigs.bin": "73e4d5f0da0a84a5711b46ae716a149f1532832f95bb09b4b01e73cf2c5afbe9",
+    "cameras.bin": "0336b666df62928b81b175c14116c2615a87733ceb790771818dd2c65bae1d1f",
+    "images.bin": "6b70327e22ccbe0e7f729443ceaa1b2a94d1fc507fa6fbf6886913d99fdb61f2",
+    "frames.bin": "d601c8d1994d98d2e68c4af871cebd9838913d59e584c63e704b22e0a60daee7",
+    "points3D.bin": "24cc9e567da66abcd72bd7ec932b74464dbd7d2e19539bdff88e8f6ebb27b15e"
+  }
+}

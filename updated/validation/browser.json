@@ -1,0 +1,212 @@
+{
+  "desktop": {
+    "state": "complete",
+    "metrics": "11/11\nregistered photographs\n11,305\nsparse SfM points\n1.01 px\nmean sparse reprojection error",
+    "status": "Showing sparse structure from motion. Full run: 19.9 s. Sparse reprojection error measures feature fit, not surface accuracy.",
+    "overflow": false,
+    "canvas": 802
+  },
+  "mobile": {
+    "overflow": false,
+    "metrics": "11/11\nregistered photographs\n11,305\nsparse SfM points\n1.01 px\nmean sparse reprojection error",
+    "capture": "environment",
+    "viewport": [
+      393,
+      852
+    ]
+  },
+  "selector": {
+    "sparseMetrics": "11/11\nregistered photographs\n11,305\nsparse SfM points\n1.01 px\nmean sparse reprojection error",
+    "stereoMetrics": "11/11\nregistered photographs\n34,262\nstereo points\n1.01 px\nmean sparse reprojection error",
+    "downloadedSparsePlyBytes": 442581
+  },
+  "pageErrors": [],
+  "capture_frames": 62,
+  "scope": "Headless Chrome desktop and mobile viewport; software WebGL. Actual server upload/SfM/stereo/exports, not physical iPhone camera or iOS Safari.",
+  "dataset": {
+    "name": "AvignonHotelDesMonnaies",
+    "author": "Romuald Perrot",
+    "license": "CC BY-NC3.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+    "input_images": 11,
+    "original_input_bytes": 159255983
+  },
+  "recorded_video": {
+    "file": "../assets/browser-workflow.mp4",
+    "bytes": 738991,
+    "duration_seconds": 31.0,
+    "capture": "Actual working browser page sampled at2fps; encoded24fps. Includes upload, native reconstruction, sparse/stereo switching and actual SparsePLY download. SoftwareWebGL; no physicalphoneorSafari claim."
+  },
+  "browser_run_summary": {
+    "implementation": "new implementation, not recovered student source",
+    "pycolmap": "3.13.0",
+    "opencv": "4.12.0",
+    "python": "3.12.11",
+    "system": "macOS-15.1.1-arm64-arm-64bit",
+    "input_images": 11,
+    "registered_images": 11,
+    "returned_models": 1,
+    "sparse_points": 11305,
+    "mean_reprojection_error_pixels": 1.0082815136527248,
+    "mean_track_length_images": 4.667049977885891,
+    "output_kind": "pairwise_stereo",
+    "output_points": 34262,
+    "stereo_pairs": [
+      {
+        "left": "image-004.jpg",
+        "right": "image-005.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-005.jpg",
+        "right": "image-006.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-003.jpg",
+        "right": "image-004.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-004.jpg",
+        "right": "image-006.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-003.jpg",
+        "right": "image-005.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-006.jpg",
+        "right": "image-007.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-002.jpg",
+        "right": "image-003.jpg",
+        "accepted_points": 1893,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-007.jpg",
+        "right": "image-008.jpg",
+        "accepted_points": 3,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-001.jpg",
+        "right": "image-002.jpg",
+        "accepted_points": 32439,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-000.jpg",
+        "right": "image-002.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-008.jpg",
+        "right": "image-009.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-007.jpg",
+        "right": "image-009.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-000.jpg",
+        "right": "image-001.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-008.jpg",
+        "right": "image-010.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      },
+      {
+        "left": "image-009.jpg",
+        "right": "image-010.jpg",
+        "accepted_points": 0,
+        "resolution": [
+          960,
+          640
+        ],
+        "left_right_tolerance_pixels": 1.0
+      }
+    ],
+    "elapsed_seconds": 19.892,
+    "scale": "arbitrary; no metric reference supplied",
+    "camera_poses": "estimated from images using CPU SIFT, geometric verification, incremental SfM and bundle adjustment",
+    "threads": 4,
+    "max_features": 8192
+  }
+}

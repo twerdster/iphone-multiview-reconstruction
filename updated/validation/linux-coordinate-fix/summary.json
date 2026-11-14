@@ -1,0 +1,210 @@
+{
+  "implementation": "new implementation, not recovered student source",
+  "pycolmap": "3.13.0",
+  "opencv": "4.12.0",
+  "python": "3.12.12",
+  "system": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "input_images": 24,
+  "registered_images": 24,
+  "returned_models": 1,
+  "sparse_points": 4061,
+  "mean_reprojection_error_pixels": 0.786959331276031,
+  "mean_track_length_images": 6.690224082738242,
+  "output_kind": "pairwise_stereo",
+  "output_points": 46086,
+  "stereo_pairs": [
+    {
+      "left": "image-000.jpg",
+      "right": "image-005.jpg",
+      "accepted_points": 14154,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-010.jpg",
+      "right": "image-004.jpg",
+      "accepted_points": 0,
+      "skipped_reason": "rectified_axis_or_disparity_sign_not_supported"
+    },
+    {
+      "left": "image-015.jpg",
+      "right": "image-023.jpg",
+      "accepted_points": 0,
+      "skipped_reason": "rectified_axis_or_disparity_sign_not_supported"
+    },
+    {
+      "left": "image-018.jpg",
+      "right": "image-023.jpg",
+      "accepted_points": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-018.jpg",
+      "right": "image-022.jpg",
+      "accepted_points": 0,
+      "skipped_reason": "rectified_axis_or_disparity_sign_not_supported"
+    },
+    {
+      "left": "image-010.jpg",
+      "right": "image-005.jpg",
+      "accepted_points": 198,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-008.jpg",
+      "right": "image-010.jpg",
+      "accepted_points": 21216,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-008.jpg",
+      "right": "image-023.jpg",
+      "accepted_points": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-008.jpg",
+      "right": "image-003.jpg",
+      "accepted_points": 9237,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-015.jpg",
+      "right": "image-001.jpg",
+      "accepted_points": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-018.jpg",
+      "right": "image-001.jpg",
+      "accepted_points": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-021.jpg",
+      "right": "image-001.jpg",
+      "accepted_points": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-007.jpg",
+      "right": "image-002.jpg",
+      "accepted_points": 134,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-007.jpg",
+      "right": "image-015.jpg",
+      "accepted_points": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-007.jpg",
+      "right": "image-003.jpg",
+      "accepted_points": 15383,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-011.jpg",
+      "right": "image-003.jpg",
+      "accepted_points": 5287,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-011.jpg",
+      "right": "image-002.jpg",
+      "accepted_points": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-011.jpg",
+      "right": "image-020.jpg",
+      "accepted_points": 556,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-013.jpg",
+      "right": "image-005.jpg",
+      "accepted_points": 0,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    },
+    {
+      "left": "image-000.jpg",
+      "right": "image-006.jpg",
+      "accepted_points": 1866,
+      "resolution": [
+        640,
+        480
+      ],
+      "left_right_tolerance_pixels": 1.0
+    }
+  ],
+  "elapsed_seconds": 7.798,
+  "scale": "arbitrary; no metric reference supplied",
+  "camera_poses": "estimated from images using CPU SIFT, geometric verification, incremental SfM and bundle adjustment",
+  "threads": 4,
+  "max_features": 8192
+}

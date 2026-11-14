@@ -1,0 +1,11 @@
+{
+  "scope": "Actual CLI server, authenticated24-image multipart upload, real native worker process; SIGINT to isolated server/worker process group (terminal Ctrl-C signal semantics)",
+  "server_exit_code": 0,
+  "worker_reaped": true,
+  "job_state": {
+    "state": "failed",
+    "stage": "failed",
+    "message": "Server stopped during reconstruction; start a new run"
+  },
+  "limitation": "SIGKILL cannot be handled; no claim that abrupt OS/machine failure is recoverable"
+}

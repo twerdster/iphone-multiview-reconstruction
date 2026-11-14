@@ -1,0 +1,24 @@
+{
+  "blank_photographs": {
+    "exit_code": 1,
+    "state": {
+      "state": "failed",
+      "stage": "failed",
+      "message": "No reconstruction: use sharp, textured photographs with overlap and camera translation"
+    },
+    "scope": "Three distinct uniform images imported, actual native engine correctly reports no geometric reconstruction"
+  },
+  "relative_workdir_actual_subprocess": {
+    "state": "complete",
+    "registered_images": 24,
+    "input_images": 24,
+    "output_points": 47579,
+    "exports_bytes": {
+      "result.ply": 1878967,
+      "summary.json": 4372,
+      "cameras.json": 13357,
+      "inputs.json": 7227
+    },
+    "scope": "Actual Flask multipart submission and subprocess execution using a relative workspace; no mocked engine"
+  }
+}

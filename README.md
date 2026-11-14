@@ -1,5 +1,9 @@
 # Multi-View 3D reconstruction application for iPhone
 
+[![New!](updated/assets/new-badge.svg)](updated/README.md#updated-and-ported-for-modern-hardware) [**Updated and ported for modern hardware**](updated/README.md#updated-and-ported-for-modern-hardware)
+
+The historical project reference follows. The linked updated section contains a new implementation; the original student source has not been recovered.
+
 <p align="center">
   <img src="assets/project-preview.jpg" alt="Two iPod touch screenshots showing a coloured 3D point-cloud reconstruction of a statue of a seated figure on a bench, viewed from two angles" width="460">
 </p>

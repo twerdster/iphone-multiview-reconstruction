@@ -1,0 +1,90 @@
+[
+  {
+    "name": "image-000.jpg",
+    "original_name": "DPP_0001.JPG",
+    "input_sha256": "29d4243c309762a0d30d9640906b9e1965937bd23e9003d68340b1eedea69d99",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "659b47bb1c1b3167bafafa8cdc69c017701894e4a55255ed137dd31284c86789"
+  },
+  {
+    "name": "image-001.jpg",
+    "original_name": "DPP_0002.JPG",
+    "input_sha256": "89b4e4d7ac49908e7140a7000b5a9b2416e56c571a6ba857d2d0291afbafa953",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "0e04c233222d213d4d5ce2baea4b38c5535957c2e401e58fd4da7d1c5cf2716a"
+  },
+  {
+    "name": "image-002.jpg",
+    "original_name": "DPP_0003.JPG",
+    "input_sha256": "d09b2c3d809564f2a64f8d1fd2be871a5dc8aabb1d611abd383fff68101e5493",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "04e6a945837691d7fb90bbcf74f15fe2861cc41ad6a2f8ca1216b02e8cc2dbff"
+  },
+  {
+    "name": "image-003.jpg",
+    "original_name": "DPP_0004.JPG",
+    "input_sha256": "64b58212b9660b46e21d8daf392fcff58f7b21bcab0dbd117b7d898fe61a37c5",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "8e512b253781ca554c2cffbe1cd0f4cf17e99d158eced02fef40ba8c3e5a00a8"
+  },
+  {
+    "name": "image-004.jpg",
+    "original_name": "DPP_0005.JPG",
+    "input_sha256": "d4a9b7fc255210805b97d664dc3741c2b9b46f2dc1dec4ad0c33ef274c3937e5",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "25817b2e39c7c3e2aacb6ad0bb74c3e79d2e83bf310e32d3d61ac675d2d20246"
+  },
+  {
+    "name": "image-005.jpg",
+    "original_name": "DPP_0006.JPG",
+    "input_sha256": "de0e2784cc18468a32da47a3bc1fa8e6647109cca720215884ce1a2215b8a0cf",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "4d4a07743c0d3eb3b8cadd1899bc83d41d6c58078084974620580239b582ea75"
+  },
+  {
+    "name": "image-006.jpg",
+    "original_name": "DPP_0007.JPG",
+    "input_sha256": "4448b8ebcde8883b54c1bbecfa6c6e46f55769d0d3ea2e2a492569221b8de104",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "f040a4105789dca847392fda03dac6df35ac31c22f90c410d19a577618f976d9"
+  },
+  {
+    "name": "image-007.jpg",
+    "original_name": "DPP_0008.JPG",
+    "input_sha256": "69ba1b882897dba8333c75976d4f475130d8e05df0d28a5f61ce902a121f1b58",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "66b240bbd58a07e130a8148f700111732e971629280da0749ba3b2ae547c68ff"
+  },
+  {
+    "name": "image-008.jpg",
+    "original_name": "DPP_0009.JPG",
+    "input_sha256": "4c57cdb9ed04e5aa191de11acf54d53e9b5919e4a018e60cf1e47474ee4dc6c5",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "6b3c09c8282110a4c702c90dd0ca236387b1f0ef26cc2e34b54eaad4bc8eacd8"
+  },
+  {
+    "name": "image-009.jpg",
+    "original_name": "DPP_0010.JPG",
+    "input_sha256": "1a13b4839bfd279bd1a4547dc3472cb3d0a0655d85970e568d8053d8258d77bb",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "ac35fa5c0b0099b2a947a997c47ed3ebbf974caa4a5efd78cb8edd73a8ea91fa"
+  },
+  {
+    "name": "image-010.jpg",
+    "original_name": "DPP_0011.JPG",
+    "input_sha256": "3d828d9e04a37d75be4183bb87e3cbda80755c72a76f8b875ffa36d6b2797cb8",
+    "width": 1600,
+    "height": 1067,
+    "normalized_sha256": "ee2877c22b4f6fa20671214c00548a1a17dc4f90c6de9f8cbc9345ba5ce335b3"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "control": "synthetic uniform-color photographs; negative control only",
+  "input_images": 3,
+  "exit_code": 1,
+  "status": {
+    "state": "failed",
+    "stage": "failed",
+    "message": "No reconstruction: use sharp, textured photographs with overlap and camera translation"
+  }
+}

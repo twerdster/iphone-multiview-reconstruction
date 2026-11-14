@@ -1,0 +1,95 @@
+{
+  "dataset": "AvignonHotelDesMonnaies",
+  "author": "Romuald Perrot (rperrot)",
+  "repository": "https://github.com/rperrot/ReconstructionDataSet",
+  "revision": "4264089c791f7174e7f3657b22b80aac3668924e",
+  "license": "CC BY-NC 3.0 Unported",
+  "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "originals_unmodified": true,
+  "images": [
+    {
+      "name": "DPP_0001.JPG",
+      "bytes": 14292645,
+      "sha256": "29d4243c309762a0d30d9640906b9e1965937bd23e9003d68340b1eedea69d99",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0001.JPG",
+      "git_blob_sha": "d5e92712cb838193e6dc4afa4bf7fff5ef3216bb"
+    },
+    {
+      "name": "DPP_0002.JPG",
+      "bytes": 14193085,
+      "sha256": "89b4e4d7ac49908e7140a7000b5a9b2416e56c571a6ba857d2d0291afbafa953",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0002.JPG",
+      "git_blob_sha": "9ec4094ba46a324aaed9ab559418a188c51318f2"
+    },
+    {
+      "name": "DPP_0003.JPG",
+      "bytes": 14301430,
+      "sha256": "d09b2c3d809564f2a64f8d1fd2be871a5dc8aabb1d611abd383fff68101e5493",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0003.JPG",
+      "git_blob_sha": "fe22f4132fab773c932d479f318d7a9439508a62"
+    },
+    {
+      "name": "DPP_0004.JPG",
+      "bytes": 14181247,
+      "sha256": "64b58212b9660b46e21d8daf392fcff58f7b21bcab0dbd117b7d898fe61a37c5",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0004.JPG",
+      "git_blob_sha": "168a0193dd6888579324dde34d1e55c1744b0a99"
+    },
+    {
+      "name": "DPP_0005.JPG",
+      "bytes": 14070895,
+      "sha256": "d4a9b7fc255210805b97d664dc3741c2b9b46f2dc1dec4ad0c33ef274c3937e5",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0005.JPG",
+      "git_blob_sha": "f9626ae9f70d8cfb466a0dfeb0247964fceff5fc"
+    },
+    {
+      "name": "DPP_0006.JPG",
+      "bytes": 13913726,
+      "sha256": "de0e2784cc18468a32da47a3bc1fa8e6647109cca720215884ce1a2215b8a0cf",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0006.JPG",
+      "git_blob_sha": "ca3bb2111c2e58bcf721c275d78a91c653b4769b"
+    },
+    {
+      "name": "DPP_0007.JPG",
+      "bytes": 14496349,
+      "sha256": "4448b8ebcde8883b54c1bbecfa6c6e46f55769d0d3ea2e2a492569221b8de104",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0007.JPG",
+      "git_blob_sha": "e96072c50d11e9d06020faaf187db45a1426a41e"
+    },
+    {
+      "name": "DPP_0008.JPG",
+      "bytes": 14367438,
+      "sha256": "69ba1b882897dba8333c75976d4f475130d8e05df0d28a5f61ce902a121f1b58",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0008.JPG",
+      "git_blob_sha": "a9f892ec6a4b96a00f12e316ba1b1de98cf13c85"
+    },
+    {
+      "name": "DPP_0009.JPG",
+      "bytes": 14742325,
+      "sha256": "4c57cdb9ed04e5aa191de11acf54d53e9b5919e4a018e60cf1e47474ee4dc6c5",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0009.JPG",
+      "git_blob_sha": "101894d33f4f9d02bb9b5a121c151bbd34a9ae02"
+    },
+    {
+      "name": "DPP_0010.JPG",
+      "bytes": 15563603,
+      "sha256": "1a13b4839bfd279bd1a4547dc3472cb3d0a0655d85970e568d8053d8258d77bb",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0010.JPG",
+      "git_blob_sha": "cf577b40a42dc27eb0dd327041ccfbff828fe966"
+    },
+    {
+      "name": "DPP_0011.JPG",
+      "bytes": 15133240,
+      "sha256": "3d828d9e04a37d75be4183bb87e3cbda80755c72a76f8b875ffa36d6b2797cb8",
+      "source_url": "https://raw.githubusercontent.com/rperrot/ReconstructionDataSet/4264089c791f7174e7f3657b22b80aac3668924e/AvignonHotelDesMonnaies/DPP_0011.JPG",
+      "git_blob_sha": "4f884d89ccf7046dee44798a5ccdd184be767b3e"
+    }
+  ],
+  "bytes": 159255983,
+  "authorship_evidence": {
+    "repository_owner": "rperrot",
+    "original_jpeg_EXIF_Artist_values": [
+      "Romuald Perrot"
+    ]
+  }
+}

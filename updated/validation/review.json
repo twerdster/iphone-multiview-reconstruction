@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-14",
+  "reviewer": "Claude, invoked for two actual read-only reviews",
+  "scope": "Draft documentation and relevant project/server/geometry facts; this was prose/code review, not an independent reconstruction run",
+  "rounds": [
+    {
+      "round": 1,
+      "focus": [
+        "Source recovery versus new implementation",
+        "Sparse SfM versus separate stereo output",
+        "Physical iPhone versus browser viewport evidence",
+        "Trajectory alignment and surface-accuracy qualifications",
+        "Timing scope"
+      ]
+    },
+    {
+      "round": 2,
+      "focus": [
+        "Revised documentation",
+        "Queued/uploading job shutdown races",
+        "Skipped candidate-pair reporting",
+        "Per-cloud labels and preventing old-result selection during a new run"
+      ]
+    }
+  ],
+  "application": "Useful feedback was checked against implementation and incorporated; numerical/runtime claims are supported by separate test and integration records."
+}

@@ -1,0 +1,398 @@
+{
+  "evaluation": "translation absolute trajectory error after one proper Sim(3) fit",
+  "reference": "withheld TUM motion-capture translations; not used by reconstruction",
+  "scope": "registered cameras with bracketed reference timestamps only; not surface accuracy",
+  "input_images": 24,
+  "registered_cameras": 24,
+  "associated_cameras": 24,
+  "excluded_cameras": 0,
+  "maximum_interpolation_gap_seconds": 0.05,
+  "scale_metres_per_sfm_unit": 0.04742248292686074,
+  "rmse_metres": 0.010431378018369797,
+  "median_metres": 0.008407248922580435,
+  "maximum_metres": 0.021604273858944603,
+  "rotation_reference_from_estimate": [
+    [
+      -0.0766292753870211,
+      0.8621103978782515,
+      -0.500892818898278
+    ],
+    [
+      0.992034234776032,
+      0.015548614607293629,
+      -0.12500527035340045
+    ],
+    [
+      -0.09998015396063817,
+      -0.5064818875873023,
+      -0.8564345079222406
+    ]
+  ],
+  "translation_metres": [
+    1.2581155906957828,
+    0.6015147734853972,
+    1.5484676313250878
+  ],
+  "samples": [
+    {
+      "image": "image-000.jpg",
+      "timestamp": 1305031102.175304,
+      "reference_metres": [
+        1.3406438833655199,
+        0.6266248074768138,
+        1.6576538063562454
+      ],
+      "aligned_estimate_metres": [
+        1.3535489826790443,
+        0.6211412567135285,
+        1.6608009042722855
+      ],
+      "translation_error_metres": 0.014370634730539948
+    },
+    {
+      "image": "image-001.jpg",
+      "timestamp": 1305031103.343223,
+      "reference_metres": [
+        1.1009795127823807,
+        0.6228204872176192,
+        1.358279512782381
+      ],
+      "aligned_estimate_metres": [
+        1.0996534207353805,
+        0.6210716294128188,
+        1.343927708415601
+      ],
+      "translation_error_metres": 0.014518653943146932
+    },
+    {
+      "image": "image-002.jpg",
+      "timestamp": 1305031104.475456,
+      "reference_metres": [
+        1.3196304980252387,
+        0.6246139003949523,
+        1.6803304980252385
+      ],
+      "aligned_estimate_metres": [
+        1.3264662201840731,
+        0.6215994376601964,
+        1.6874569560352461
+      ],
+      "translation_error_metres": 0.0103247511728087
+    },
+    {
+      "image": "image-003.jpg",
+      "timestamp": 1305031105.643273,
+      "reference_metres": [
+        1.2142580822048445,
+        0.6162494611863436,
+        1.5629086210185008
+      ],
+      "aligned_estimate_metres": [
+        1.2199673732312304,
+        0.6135354883816174,
+        1.5595214111924136
+      ],
+      "translation_error_metres": 0.00717180889418457
+    },
+    {
+      "image": "image-004.jpg",
+      "timestamp": 1305031106.811289,
+      "reference_metres": [
+        1.14780162601626,
+        0.6227353265145554,
+        1.462285864148964
+      ],
+      "aligned_estimate_metres": [
+        1.1427138760370041,
+        0.6156647054472635,
+        1.4558295937226458
+      ],
+      "translation_error_metres": 0.010842615456909023
+    },
+    {
+      "image": "image-005.jpg",
+      "timestamp": 1305031107.943122,
+      "reference_metres": [
+        1.3129535631690628,
+        0.6510982762320292,
+        1.6556071263381256
+      ],
+      "aligned_estimate_metres": [
+        1.3184861111703394,
+        0.6592039434227298,
+        1.6633566711642114
+      ],
+      "translation_error_metres": 0.012504654053765104
+    },
+    {
+      "image": "image-006.jpg",
+      "timestamp": 1305031109.111282,
+      "reference_metres": [
+        1.31028835800968,
+        0.9278811911403572,
+        1.6154
+      ],
+      "aligned_estimate_metres": [
+        1.312363489037528,
+        0.9172508330142493,
+        1.6177388003676416
+      ],
+      "translation_error_metres": 0.011080643926763759
+    },
+    {
+      "image": "image-007.jpg",
+      "timestamp": 1305031110.279321,
+      "reference_metres": [
+        1.2865282989471696,
+        0.4625169326282989,
+        1.5837282989471697
+      ],
+      "aligned_estimate_metres": [
+        1.2807175113212663,
+        0.4620682163885287,
+        1.5901136454900875
+      ],
+      "translation_error_metres": 0.008645186497140243
+    },
+    {
+      "image": "image-008.jpg",
+      "timestamp": 1305031111.411296,
+      "reference_metres": [
+        1.2878,
+        0.4509383711227142,
+        1.5715440407219323
+      ],
+      "aligned_estimate_metres": [
+        1.2845622432372668,
+        0.4522647764681116,
+        1.5762240871207711
+      ],
+      "translation_error_metres": 0.0058433940728148705
+    },
+    {
+      "image": "image-009.jpg",
+      "timestamp": 1305031112.579252,
+      "reference_metres": [
+        1.29476897062568,
+        0.9319035300108794,
+        1.5990000000000002
+      ],
+      "aligned_estimate_metres": [
+        1.2943271102391645,
+        0.9233514298923597,
+        1.599971823752943
+      ],
+      "translation_error_metres": 0.008618474252739875
+    },
+    {
+      "image": "image-010.jpg",
+      "timestamp": 1305031113.74359,
+      "reference_metres": [
+        1.2739875197696104,
+        0.5983970776385054,
+        1.601543759884805
+      ],
+      "aligned_estimate_metres": [
+        1.2771705654063759,
+        0.5968701283518996,
+        1.6031885586366323
+      ],
+      "translation_error_metres": 0.003894703657996332
+    },
+    {
+      "image": "image-011.jpg",
+      "timestamp": 1305031114.879281,
+      "reference_metres": [
+        1.2398074315141978,
+        0.2735939155520587,
+        1.5729209474763368
+      ],
+      "aligned_estimate_metres": [
+        1.2487736199471828,
+        0.27992785172491447,
+        1.574030860935117
+      ],
+      "translation_error_metres": 0.011033729666055201
+    },
+    {
+      "image": "image-012.jpg",
+      "timestamp": 1305031116.043164,
+      "reference_metres": [
+        1.2423748908245402,
+        0.791820742157071,
+        1.5294008734036777
+      ],
+      "aligned_estimate_metres": [
+        1.2432807791343972,
+        0.8125855904583617,
+        1.5235063767867707
+      ],
+      "translation_error_metres": 0.021604273858944603
+    },
+    {
+      "image": "image-013.jpg",
+      "timestamp": 1305031117.179264,
+      "reference_metres": [
+        1.265791166611586,
+        0.6077842217081346,
+        1.5225823332231718
+      ],
+      "aligned_estimate_metres": [
+        1.2652393302391494,
+        0.5955382903840875,
+        1.5205472938128397
+      ],
+      "translation_error_metres": 0.01242613144855745
+    },
+    {
+      "image": "image-014.jpg",
+      "timestamp": 1305031118.343324,
+      "reference_metres": [
+        1.0294702596380803,
+        0.5874524783634933,
+        1.6557623918174664
+      ],
+      "aligned_estimate_metres": [
+        1.0223690700943486,
+        0.5887574449981291,
+        1.6539468876278938
+      ],
+      "translation_error_metres": 0.007444856366369453
+    },
+    {
+      "image": "image-015.jpg",
+      "timestamp": 1305031119.51124,
+      "reference_metres": [
+        1.297131076647074,
+        0.5698883176356726,
+        1.5195390175388899
+      ],
+      "aligned_estimate_metres": [
+        1.3008360426113779,
+        0.5704459222858665,
+        1.519048114765239
+      ],
+      "translation_error_metres": 0.0037787142357878336
+    },
+    {
+      "image": "image-016.jpg",
+      "timestamp": 1305031120.647354,
+      "reference_metres": [
+        1.30127385737787,
+        0.5674876904370216,
+        1.4890455332236605
+      ],
+      "aligned_estimate_metres": [
+        1.295630311192651,
+        0.5698371702787293,
+        1.492653178516046
+      ],
+      "translation_error_metres": 0.007098223272549274
+    },
+    {
+      "image": "image-017.jpg",
+      "timestamp": 1305031121.81154,
+      "reference_metres": [
+        1.0159496054168753,
+        0.5844375986457813,
+        1.674115797630117
+      ],
+      "aligned_estimate_metres": [
+        1.0221729115546976,
+        0.5831395710562581,
+        1.6689427532828007
+      ],
+      "translation_error_metres": 0.008196023592420996
+    },
+    {
+      "image": "image-018.jpg",
+      "timestamp": 1305031122.982815,
+      "reference_metres": [
+        1.3035382182144375,
+        0.5546551484821302,
+        1.5048860393749115
+      ],
+      "aligned_estimate_metres": [
+        1.3042781079286314,
+        0.5548890761349659,
+        1.5055305083309878
+      ],
+      "translation_error_metres": 0.001008711639308892
+    },
+    {
+      "image": "image-019.jpg",
+      "timestamp": 1305031124.111331,
+      "reference_metres": [
+        1.431633798250006,
+        0.5624166201749994,
+        1.3871746513124954
+      ],
+      "aligned_estimate_metres": [
+        1.4148091369325915,
+        0.5668629308520214,
+        1.394577121481544
+      ],
+      "translation_error_metres": 0.018911252514996434
+    },
+    {
+      "image": "image-020.jpg",
+      "timestamp": 1305031125.279467,
+      "reference_metres": [
+        1.0906492263309728,
+        0.582183985408769,
+        1.6018640583649237
+      ],
+      "aligned_estimate_metres": [
+        1.0925325500200134,
+        0.5829364715235906,
+        1.5998995010598702
+      ],
+      "translation_error_metres": 0.0028235844020570193
+    },
+    {
+      "image": "image-021.jpg",
+      "timestamp": 1305031126.447361,
+      "reference_metres": [
+        1.2574583291610044,
+        0.5782,
+        1.4804650025033976
+      ],
+      "aligned_estimate_metres": [
+        1.2586574065143767,
+        0.5788873469399599,
+        1.4770528231459608
+      ],
+      "translation_error_metres": 0.003681467137237664
+    },
+    {
+      "image": "image-022.jpg",
+      "timestamp": 1305031127.579345,
+      "reference_metres": [
+        1.3091846505972389,
+        0.5838615501990797,
+        1.4443384498009202
+      ],
+      "aligned_estimate_metres": [
+        1.3018033791431096,
+        0.5872040986501698,
+        1.4442271766475239
+      ],
+      "translation_error_metres": 0.008103590570981157
+    },
+    {
+      "image": "image-023.jpg",
+      "timestamp": 1305031128.747363,
+      "reference_metres": [
+        1.2788,
+        0.5813813699544621,
+        1.4567186300455381
+      ],
+      "aligned_estimate_metres": [
+        1.2723432749081305,
+        0.5859093898413872,
+        1.4550024973757967
+      ],
+      "translation_error_metres": 0.008070772847040091
+    }
+  ]
+}
