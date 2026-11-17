@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-17",
+  "implementation": "Interactive saved-reconstruction viewer",
+  "browser": "Chrome on macOS; isolated automated profile",
+  "viewports_css_px": [
+    [
+      1280,
+      940
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "checks": [
+    "actual Avignon cloud loaded",
+    "actual TUM stereo cloud selected",
+    "zoom interaction",
+    "orbit pause",
+    "390px layout has no horizontal overflow",
+    "no JavaScript page errors"
+  ],
+  "operator_checks": null,
+  "limitations": "Canvas rendering of actual saved geometry, not in-browser reconstruction or live capture. Avignon displays all 11,307 saved points; TUM deterministically subsamples the 45,424-point stereo cloud. JSON files record source PLY hashes, full counts and displayed counts. Coordinates have arbitrary SfM scale. Avignon-derived geometry is CC BY-NC 3.0 (noncommercial); TUM-derived data is CC BY 4.0. These rights are separate from the new viewer source license.",
+  "physical_devices_tested": false,
+  "live_audio_or_camera_tested": false,
+  "cross_browser_tested": false
+}
